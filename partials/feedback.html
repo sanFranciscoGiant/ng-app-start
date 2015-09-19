@@ -1,0 +1,38 @@
+<header class="pageHeader" data-ng-class="{'noOf':isSbMenu}">
+    <a class="menuToggler" data-ng-class="{'active':isSbMenu}" data-ng-click="toggleMenu()"></a>
+    <h2 class="pageTitle">Feedback</h2>
+    <!-- /.pageTitle -->
+    <div class="rt">
+        <a href="#/notifications" class="network">
+            <strong class="status alertStatus">!</strong>
+        </a>
+    </div>
+    <!-- /.rt -->
+</header>
+<!-- /.pageHeader -->
+<aside class="sidebarMenuWrap " data-ng-click="toggleMenu()" data-sidebar-menu data-ng-class="{'on':isSbMenu}">
+</aside>
+<!-- /.sidebarMenu -->
+<div class="sbMask" data-ng-class="{'noOf':isSbMenu}" data-ng-click="toggleMenu()"></div>
+<!-- /.sbMask -->
+<main class="pageCon" data-ng-class="{'noOf':isSbMenu}">
+    <div class="inWrap">
+        <div class="container-fluid">
+            <div class="feedbackCon">
+                <header class="head">
+                    <div class="lbl">Complete our new</div>
+                    <h2 class="title">{{fbk.title}}</h2>
+                </header>
+                <!-- /.head -->
+                <div class="svCon hyphenate" data-ng-bind-html="fbk.details">
+                </div>
+                <!-- /.svCon -->
+            </div>
+            <!-- /.feedbackCon -->
+            <div class="fbkActn">
+                <a data-ng-href="{{fbk.surveySrc}}" target="_blank" class="btn">Start Survey</a>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- /.pageCon -->

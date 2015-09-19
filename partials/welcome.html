@@ -1,0 +1,46 @@
+<div class="landingBg">
+    <div class="ribbons"></div>
+</div>
+<main class="pageCon landingCon text-center">
+    <div class="inWrap">
+        <div class="container-fluid">
+            <h1 class="logo" data-ng-click="exhibitAlertModal=true">&nbsp;</h1>
+            <div class="welcomeWrap">
+                <div class="inner">
+                    <div class="welcome">
+                        <div class="lbl">Welcome To The</div>
+                        <h2 class="ht">Experience Center</h2>
+                        <!-- /.ht -->
+                    </div>
+                </div>
+                <!-- /.welcome -->
+                <div class="tagline">
+                    We invite you to experience
+                    <small>the Cardinal Health story</small>
+                </div>
+                <div class="actn">
+                    <a class="btnExplore" data-ng-click="go('/explore')"><i class="ico"></i>Explore</a>
+                    <div class="clear"></div>
+                </div>
+                <!-- /.actn -->
+            </div>
+        </div>
+    </div>
+</main>
+<!-- /.pageCon -->
+<div class="modalWrap data-ng-hide" data-ng-show="exhibitAlertModal===true">
+    <div class="modal alertModal">
+        <h2 class="title">{{appData.exhibitAlertModal.title}}</h2>
+        <!-- /.title -->
+        <div class="alertTxt">
+            {{appData.exhibitAlertModal.alertText}}
+        </div>
+        <div class="actns">
+            <a class="lnk" data-ng-click="exhibitAlertModal=false">Later</a>
+            <a class="lnkPrimary"  data-ng-href="{{appData.exhibitAlertModal.navUrl}}" >OK</a>
+        </div>
+        <!-- /.actns -->
+    </div>
+    <!-- /.alertModal -->
+</div>
+<!-- /.modalWrap -->

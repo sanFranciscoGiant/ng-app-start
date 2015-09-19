@@ -1,0 +1,11 @@
+{
+    "id": 103,
+    "title": "Continuum of care wall",
+    "isAutopalySlide": true,
+    "slides": [{
+        "id": 100,
+        "src": "i/slides/continum0.jpg"
+    }],
+    "content": "<section class='excerpt'><h3 class='que'>Where does Cardinal Health impact  healthcare?</h3> <div class='ans'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore..</div></section>"
+    
+}

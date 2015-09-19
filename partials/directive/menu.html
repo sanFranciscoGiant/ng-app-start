@@ -1,0 +1,22 @@
+<div class="sidebarMenuSn" data-ng-click="$event.stopPropagation()">
+    <div class="sbInner">
+        <header class="sbHead">
+            <h1 class="logo"><a href="#/explore" data-ng-click="toggleMenu();">&nbsp;</a></h1><!-- /.logo -->
+        </header>
+        <!-- /.sbHead -->
+        <nav class="siteNav">
+            <ul>
+                <li data-ng-repeat="lnk in menu">
+                    <a data-ng-if="lnk.childList" data-ng-href="{{lnk.href}}" data-ng-click="toggleChild(lnk)" class="lnk mnu{{lnk.name}} root">{{lnk.name}}</a>
+                    <a data-ng-if="!lnk.childList" data-ng-href="{{lnk.href}}" data-ng-click="toggleMenu()" class="lnk mnu{{lnk.name}} root">{{lnk.name}}</a>
+                    <ul class="child" data-ng-if="lnk.childList" data-ng-class="{'open':lnk.childOpen}">
+                        <li data-ng-repeat="clnk in lnk.childList">
+                            <a data-ng-href="{{clnk.href}}" data-ng-click="toggleMenu();" class="lnk" data-ng-bind-html="clnk.name"></a>
+                        </li>
+                    </ul><!-- /.child -->
+                </li>
+            </ul>
+        </nav><!-- /.siteNav -->
+    </div>
+</div>
+<!-- /.sidebarMenuSn -->

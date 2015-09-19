@@ -1,0 +1,23 @@
+{
+    "id": 104,
+    "title": "Patient Story Portal ",
+    "isAutopalySlide": true,
+    "slides": [{
+        "id": 100,
+        "src": "i/slides/pStory0.jpg"
+    }, {
+        "id": 101,
+        "src": "i/slides/pStory1.jpg"
+    }, {
+        "id": 102,
+        "src": "i/slides/pStory2.jpg"
+    }, {
+        "id": 103,
+        "src": "i/slides/pStory3.jpg"
+    }, {
+        "id": 104,
+        "src": "i/slides/pStory4.jpg"
+    }],
+    "content": "<section class='excerpt padded'><h3 class='que'>Explore patient stories</h3> <div class='ans alt'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore..</div></section>"
+    
+}

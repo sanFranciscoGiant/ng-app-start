@@ -1,0 +1,20 @@
+{
+    "appName": "Cardinal HEC",
+    "exhibitAlertModal": {
+        "title": "Exhibit Alert",
+        "alertText": "You are near the “Interactive video wall” would you like to learn more?",
+        "navUrl":"#/exhibitAlert:105"
+    },
+    "iBanconAlert":{
+    	"logoCaption":"Experience Center",
+    	"mainTitle":"Experience More"
+    },
+    "slider":{
+        "autoplaySpeed":3100,
+        "speed": 300,
+        "slidesToShow":1,
+        "slidesToScroll":1
+    }
+    
+
+}

@@ -1,0 +1,32 @@
+<header class="pageHeader" data-ng-class="{'noOf':isSbMenu}">
+    <a class="menuToggler" data-ng-class="{'active':isSbMenu}" data-ng-click="toggleMenu()"></a>
+    <h2 class="pageTitle">Notifications</h2>
+    <!-- /.pageTitle -->
+    <div class="rt">
+        <a href="#/notifications" class="network">
+            <strong class="status alertStatus">!</strong>
+        </a>
+    </div>
+    <!-- /.rt -->
+</header>
+<!-- /.pageHeader -->
+<aside class="sidebarMenuWrap " data-ng-click="toggleMenu()" data-sidebar-menu data-ng-class="{'on':isSbMenu}">
+</aside>
+<!-- /.sidebarMenu -->
+<div class="sbMask" data-ng-class="{'noOf':isSbMenu}" data-ng-click="toggleMenu()"></div>
+<!-- /.sbMask -->
+<main class="pageCon" data-ng-class="{'noOf':isSbMenu}">
+    <div class="inWrap">
+        <div class="notifnCon">
+            <section class="notifbBx" data-ng-click="go('/exhibitAlert:{{nfn.id}}')" data-ng-repeat="nfn in notifications" data-ng-class="{'isViewed':nfn.isViewed===true}">
+                <div class="container-fluid">
+                    <div class="date">{{nfn.date}}</div>
+                    <h3 class="title ellipsis" data-ng-bind-html="nfn.title">title</h3>
+                    <div class="tag ellipsis" data-ng-bind-html="nfn.tag"></div>
+                </div>
+            </section>
+        </div>
+        <!-- /.notifnCon -->
+    </div>
+</main>
+<!-- /.pageCon -->

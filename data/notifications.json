@@ -1,0 +1,38 @@
+{
+    "notifications": [{
+        "id": "105",
+        "title": "Interactive video wall",
+        "date": "Feb 22, 8:00 AM",
+        "tag": "How does Cardinal Health partner with customers?"
+    }, {
+        "id": "104",
+        "title": "Patient story portal",
+        "date": "Feb 22, 8:32 AM",
+        "tag": "Explore patient stories"
+    }, {
+        "id": "103",
+        "title": "Continuum of care wall",
+        "date": "Feb 22, 8:47 AM",
+        "tag": "Where does Cardinal Health impact healthcare?"
+    }, {
+        "id": "101",
+        "title": "Essential to care&#8482; Wall",
+        "date": "Feb 22, 8:48 AM",
+        "tag": "Why is Cardinal Health Essential to care&#8482;?"
+    }, {
+        "id": "102",
+        "title": "Gallery Wall",
+        "date": "Feb 22, 8:49 AM",
+        "tag": "Our People, Our Community, Our Company"
+    }, {
+        "id": "106",
+        "title": "Solutions showcase",
+        "date": "Feb 22, 8:50 AM",
+        "tag": "Our People, Our Community, Our Company"
+    }, {
+        "id": "107",
+        "title": "Care is everywhere wall",
+        "date": "Feb 22, 8:51 AM",
+        "tag": "Where does Cardinal Health impact healthcare?"
+    }]
+}

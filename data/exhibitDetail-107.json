@@ -1,0 +1,24 @@
+{
+    "id": 107,
+    "title": "Care is everywhere wall",
+    "isAutopalySlide": true,
+    "slides": [{
+        "id": 100,
+        "src": "i/slides/care0.jpg"
+    }, {
+        "id": 101,
+        "src": "i/slides/care1.jpg"
+    }, {
+        "id": 102,
+        "src": "i/slides/care2.jpg"
+    }, {
+        "id": 103,
+        "src": "i/slides/care3.jpg"
+    }, {
+        "id": 104,
+        "src": "i/slides/care4.jpg"
+    }],
+    "content": "<h2>Care is Everywhere Wall</h2> <section class='excerpt'><h3 class='que'>Care is everywhere. And so is Cardinal Health</h3> <div class='ans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor ipsum. Nam tellus sem, elementum convallis lobortis nec, vesbulum sit amet ipsum. Donec augue urna, laoreet sed efitur ut, finibus a sapien. Vestibulum tinunt eget sapien ut volutpat.</div></section> <div class='desc impactCon'><h4>Impacting the continuum of care</h4><div class='resourceWrap'><div class='provide'>We provide <span class='hl'>resources</span> to</div><div class='moreWrap'><span class='more'>MORE THAN</span><span class='percent'>75%</span><span class='hospital'>of U.S. hospitals</span></div></div></div></div>"
+
+    
+}

@@ -1,0 +1,63 @@
+<header class="pageHeader" data-ng-class="{'noOf':isSbMenu}">
+    <a class="menuToggler" data-ng-class="{'active':isSbMenu}" data-ng-click="toggleMenu()"></a>
+    <h2 class="pageTitle">{{data.title}}</h2>
+    <!-- /.pageTitle -->
+    <div class="rt">
+        <a href="#/notifications" class="network">
+            <strong class="status alertStatus">!</strong>
+        </a>
+    </div>
+    <!-- /.rt -->
+</header>
+<!-- /.pageHeader -->
+<aside class="sidebarMenuWrap " data-ng-click="toggleMenu()" data-sidebar-menu data-ng-class="{'on':isSbMenu}">
+</aside>
+<!-- /.sidebarMenu -->
+<div class="sbMask" data-ng-class="{'noOf':isSbMenu}" data-ng-click="toggleMenu()"></div>
+<!-- /.sbMask -->
+<main class="pageCon" data-ng-class="{'noOf':isSbMenu}">
+    <div class="inWrap stickyBottom">
+        <!-- /.secHead -->
+        <section class="bxSec" data-ng-class="{'open':exhibit.open}" data-ng-repeat="exhibit in data.exploreList" data-ng-click="toggleDesc(exhibit)">
+            <div class="bgWrap">
+                <img data-ng-src="{{exhibit.img}}" src="i/px.png" alt="" class="bg" />
+                <div class="bgMask"></div>
+                <!-- /.bgMask -->
+            </div>
+            <!-- /.bgWrap -->
+            <div class="secCon container-fluid">
+                <h3 class="title ellipses" data-ng-bind-html="exhibit.title">title
+                    </h3>
+                <!-- /.title -->
+                <h4 class="tag ellipses" data-ng-bind-html="exhibit.tag">tag</h4>
+                <!-- /.tag -->
+                <div class="desc">{{exhibit.desc}}</div>
+                <!-- /.desc -->
+                <div class="actn">
+                    <a data-ng-click="go('/exhibitDetail:{{exhibit.id}}'); $event.stopPropagation();" class="more">Explore More</a>
+                </div>
+                <!-- /.actn -->
+                <a data-ng-click="go('/exhibitDetail:{{exhibit.id}}'); $event.stopPropagation();" class="lnkNav"></a>
+            </div>
+            <!-- /.secCon -->
+        </section>
+    </div>
+</main>
+<!-- /.pageCon -->
+<div class="modalWrap" data-ng-show="showInterestModal">
+    <div class="modal interestModal">
+        <h2 class="title">Select Your Interest   | <span class="selTxt"><strong>{{intrestCount}}</strong> Selected</span></h2>
+        <!-- /.title -->
+        <div class="selLstWrap">
+            <ul class="selLst">
+                <li data-ng-repeat="opt in appData.intrestOpts"><a data-ng-class="{'selected':opt.isSelected}" data-ng-click="toggleOptSel(opt);" class="item">{{opt.type}}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="actns">
+            <a class="actn btnDone ellipses" data-ng-click="showInterestModal=false;">DONE</a>
+        </div>
+        <!-- /.actns -->
+    </div>
+    <!-- /.interestModal msgModal -->
+</div>

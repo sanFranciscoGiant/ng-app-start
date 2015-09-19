@@ -1,0 +1,11 @@
+{
+    "id": 101,
+    "title": "Essential to care&#8482; wall",
+    "slides": [{
+        "isVideo": true,
+        "isSingleSlide":true,
+        "videoSrc": "www.youtube.com/embed/mDghEqfW7bg"
+    }],
+    "content": "<section class='excerpt padded'><h3 class='que'>Why is Cardinal Health Essential to care&#8482;?</h3> <div class='ans alt'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore..</div></section>"
+    
+}

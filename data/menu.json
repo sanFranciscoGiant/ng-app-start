@@ -1,0 +1,34 @@
+{
+    "menu": [{
+        "name": "Exhibits",
+        "href": "javascript:;",
+        "childList": [{
+            "name": "Essential to care&#8482; wall",
+            "href": "#/exhibitDetail:101"
+        }, {
+            "name": "Gallery wall",
+            "href": "#/exhibitDetail:102"
+        }, {
+            "name": "Continuum of care wall",
+            "href": "#/exhibitDetail:103"
+        }, {
+            "name": "Patient story portal",
+            "href": "#/exhibitDetail:104"
+        }, {
+            "name": "Interactive video wall",
+            "href": "#/exhibitDetail:105"
+        }, {
+            "name": "Solutions showcase",
+            "href": "#/exhibitDetail:106"
+        }, {
+            "name": "Care is everywhere wall",
+            "href": "#/exhibitDetail:107"
+        }]
+    }, {
+        "name": "Feedback",
+        "href": "#feedback"
+    }, {
+        "name": "Notification",
+        "href": "#/notifications"
+    }]
+}

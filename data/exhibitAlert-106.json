@@ -1,0 +1,23 @@
+{
+    "id": 106,
+    "title": "Solutions showcase ",
+    "isAutopalySlide": true,
+    "slides": [{
+        "id": 100,
+        "src": "i/slides/solution0.jpg"
+    }, {
+        "id": 101,
+        "src": "i/slides/solution1.jpg"
+    }, {
+        "id": 102,
+        "src": "i/slides/solution2.jpg"
+    }, {
+        "id": 103,
+        "src": "i/slides/solution3.jpg"
+    }, {
+        "id": 104,
+        "src": "i/slides/solution4.jpg"
+    }],
+    "content": "<section class='excerpt padded'><h3 class='que'>Our Solutions showcase</h3> <div class='ans alt'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore..</div></section>"
+    
+}

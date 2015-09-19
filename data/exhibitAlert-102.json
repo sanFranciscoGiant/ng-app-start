@@ -1,0 +1,11 @@
+{
+    "id": 102,
+    "title": "Gallery wall ",
+    "isAutopalySlide": true,
+    "slides": [{
+        "id": 100,
+        "src": "i/slides/gallery0.jpg"
+    }],
+    "content": "<section class='excerpt padded'><h3 class='que'>Our People, Our Communities, Our Company</h3> <div class='ans alt'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore..</div></section>"
+    
+}

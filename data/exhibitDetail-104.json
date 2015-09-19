@@ -1,0 +1,24 @@
+{
+    "id": 104,
+    "title": "Patient story portal",
+    "isAutopalySlide": true,
+    "slides": [{
+        "id": 100,
+        "src": "i/slides/pStory0.jpg"
+    }, {
+        "id": 101,
+        "src": "i/slides/pStory1.jpg"
+    }, {
+        "id": 102,
+        "src": "i/slides/pStory2.jpg"
+    }, {
+        "id": 103,
+        "src": "i/slides/pStory3.jpg"
+    }, {
+        "id": 104,
+        "src": "i/slides/pStory4.jpg"
+    }],
+    "content": "<h2>Explore patient stories</h2> <section class='excerpt'><h3 class='que'>Explore patient stories</h3> <div class='ans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor ipsum. Nam tellus sem, elementum convallis lobortis nec, vesbulum sit amet ipsum. Donec augue urna, laoreet sed efitur ut, finibus a sapien. Vestibulum tinunt eget sapien ut volutpat.</div></section> <div class='desc alt'>Aenean nec sapien massa, eget scelerisque ligula. In non laoreet dui. Vestibulum rhoncus purus vitae justo ornare viverra. </div>",
+    "quote": "<strong>When you are a nurse,</strong> you know that every day <strong>you will touch a life or a life will touch yours.</strong>",
+    "quoteAuthor":"Anonymous"
+}

@@ -1,0 +1,60 @@
+<div class="alterBg">
+</div>
+<div class="alertSn landingCon" data-ng-class="{'noOf':isSbMenu}">
+    <h1 class="logo text-center  indent" data-ng-click="exhibitAlertModal=true">&nbsp;</h1>
+    <div class="caption text-center indent">{{appData.iBanconAlert.logoCaption}}</div>
+    <div class="welcomeWrap text-center  indent">
+        <div class="inner">
+            <div class="welcome">
+                <h2 class="ht">{{appData.iBanconAlert.mainTitle}}</h2>
+                <!-- /.ht -->
+            </div>
+        </div>
+        <!-- /.welcome -->
+        <h2 class="pageTitle" data-ng-bind-html="exhibit.title">title</h2>
+        <a class="lnkClose" data-ng-click="go('back')">Close</a>
+    </div>
+    <!-- /.pageHeader -->
+    <main class="pageCon shadow alertPage" data-ng-class="{'noOf':isSbMenu}">
+        <div class="inWrap">
+            <div class="masthead">
+                <div class="carouselContainer small">
+                    <div data-slick data-dots="true" 
+                    data-infinite="true" 
+                    data-autoplay-speed={{appData.slider.autoplaySpeed}} 
+                    data-speed={{appData.slider.speed}}  
+                    data-slides-to-show={{appData.slider.slidesToShow}}  
+                    data-autoplay="{{exhibit.isAutopalySlide}}" 
+                    data-touch-move="true" 
+                    data-slides-to-scroll={{appData.slider.slidesToScroll}} 
+                     data-arrows='false' class="slider mainSlider one-time" data-on-after-change="afterSlide()">
+                        <div class="slide" data-ng-class="{'singleSlide':slide.isSingleSlide}" data-ng-repeat="slide in exhibit.slides">
+                            <div class="videoWrap" data-ng-if="slide.isVideo">
+                                <div class="slick-loading" data-video-embed data-src="{{slide.videoSrc}}" data-vid="vid{{$index}}">
+                                </div>
+                                <!-- /.videoEmbed -->
+                            </div>
+                            <!-- /.videoWrap -->
+                            <div class="scWrap" data-ng-if="!slide.isVideo">
+                                <img src="i/px.png" data-ng-src="{{slide.src}}" alt="" class="img" />
+                            </div>
+                            <!-- /.scWrap -->
+                        </div>
+                    </div>
+                    <!-- /.mainSlider -->
+                </div>
+                <!-- /.carouselContainer -->
+            </div>
+            <!-- /.masthead -->
+            <div class="container-fluid detailCon">
+                <div class="exhibitDtlCon alertDtCon" data-ng-bind-html="exhibit.content"></div>
+                <!-- /.content -->
+                <div class="alertActn">
+                    <a data-ng-href="#/exhibitDetail:{{exhibit.id}}" class="btn">More Information</a>
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+    </main>
+    <!-- /.pageCon -->
+</div>

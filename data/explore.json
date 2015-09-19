@@ -1,0 +1,46 @@
+{
+    "title": "EXPLORE",
+    "exploreList": [{
+        "id": 101,
+        "title": "Essential to care&#8482; Wall",
+        "tag": "Why is Cardinal Health Essential to care&#8482;?",
+        "img": "i/xplore1.jpg",
+        "desc": "Lorem Essential dolor sit amet, consectetur adipiscing elit. Ut a dolor ipsum. Nam tellus sem, elementum convallis lobortis nec, vestibulum sit amet ipsum. Donec augue urna, laoreet sed efficitur ut, finibus a sapien. Vestibulum tincidunt eget sapien ut volutpat."
+    }, {
+        "id": 102,
+        "title": "Gallery Wall",
+        "tag": "Our People, Our Community, Our Company",
+        "img": "i/xplore2.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor ipsum. Nam tellus sem, elementum convallis lobortis nec, vestibulum sit amet ipsum. Donec augue urna, laoreet sed efficitur ut, finibus a sapien. Vestibulum tincidunt eget sapien ut volutpat."
+    }, {
+        "id": 103,
+        "title": "Continuum of Care Wall",
+        "tag": "Where does Cardinal Health impact healthcare?",
+        "img": "i/xplore3.jpg",
+        "desc": "Lorem Continuum dolor sit amet, consectetur adipiscing elit. Ut a dolor ipsum. Nam tellus sem, elementum convallis lobortis nec, vestibulum sit amet ipsum. Donec augue urna, laoreet sed efficitur ut, finibus a sapien. Vestibulum tincidunt eget sapien ut volutpat."
+    }, {
+        "id": 104,
+        "title": "Patient Story Portal",
+        "tag": "Explore patient stories",
+        "img": "i/xplore4.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor ipsum. Nam tellus sem, elementum convallis lobortis nec, vestibulum sit amet ipsum. Donec augue urna, laoreet sed efficitur ut, finibus a sapien. Vestibulum tincidunt eget sapien ut volutpat."
+    }, {
+        "id": 105,
+        "title": "Interactive video wall",
+        "tag": "Why is Cardinal Health Essential to care&#8482;?",
+        "img": "i/xplore1.jpg",
+        "desc": "Lorem Essential dolor sit amet, consectetur adipiscing elit. Ut a dolor ipsum. Nam tellus sem, elementum convallis lobortis nec, vestibulum sit amet ipsum. Donec augue urna, laoreet sed efficitur ut, finibus a sapien. Vestibulum tincidunt eget sapien ut volutpat."
+    }, {
+        "id": 106,
+        "title": "Solutions showcase",
+        "tag": "Our People, Our Community, Our Company",
+        "img": "i/xplore2.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor ipsum. Nam tellus sem, elementum convallis lobortis nec, vestibulum sit amet ipsum. Donec augue urna, laoreet sed efficitur ut, finibus a sapien. Vestibulum tincidunt eget sapien ut volutpat."
+    }, {
+        "id": 107,
+        "title": "Care is everywhere wall",
+        "tag": "Where does Cardinal Health impact healthcare?",
+        "img": "i/xplore3.jpg",
+        "desc": "Lorem Continuum dolor sit amet, consectetur adipiscing elit. Ut a dolor ipsum. Nam tellus sem, elementum convallis lobortis nec, vestibulum sit amet ipsum. Donec augue urna, laoreet sed efficitur ut, finibus a sapien. Vestibulum tincidunt eget sapien ut volutpat."
+    }]
+}
